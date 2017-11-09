@@ -22,7 +22,7 @@ ul{
 	position: relative;
 }
 
-.tlo{
+#tlo{
 	background-image: url(../img/tlo.jpg);
 	background-size: cover;
 	width: 100%;
