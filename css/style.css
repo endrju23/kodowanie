@@ -19,9 +19,10 @@ ul{
 .center{
 	width: 940px;
 	margin: 0 auto;
+	position: relative;
 }
 
-#tlo{
+.tlo{
 	background-image: url(../img/tlo.jpg);
 	background-size: cover;
 	width: 100%;
@@ -30,7 +31,7 @@ ul{
 	float: left;
 }
 
-#logo{
+.logo{
 	font-size: 20px;
 	color: white;
 	background-color: #fa5c65;
@@ -42,48 +43,50 @@ ul{
 	font-family: 'Domine', serif;
 }
 
-#menu{
-	float: right;
+.menu{
 	display: inline;
 	margin-top: 30px;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	right: 0;
+	top: 0
 }
 
-#menu ul{
+.menu ul{
 	
 }
 
-#menu ul li{
+.menu ul li{
 	display: inline;
 	font-size: 14px;
 	padding-left: 30px;
 }
 
-#menu ul li #twitter{
+.menu ul li .twitter{
 	background-image: url(../img/twitter.png);
 	height: 16px;
 	width: 20px;
 	display: inline-block;
 }
 
-#menu ul li #fb{
+.menu ul li .fb{
 	background-image: url(../img/fb.png);
 	height: 18px;
 	width: 10px;
 	display: inline-block;
 }
 
-#menu ul li:last-of-type{
+.menu ul li:last-of-type{
 	padding-left: 20px;
 }
 
-#menu ul li a{
+.menu ul li a{
 	color: #263742;
 	text-decoration: none;
 }
 
-#naglowek{
+.naglowek{
 	font-size: 48px;
 	color: #314a5b;
 	text-transform: uppercase;
@@ -92,13 +95,13 @@ ul{
 	line-height: 53px;
 }
 
-#opis{
+.opis{
 	color: #314a5b;
 	font-size: 20px;
 	margin-top: 28px;
 }
 
-#przycisk{
+.przycisk{
 	font-size: 15px;
 	color: white;
 	background-color: #fa5c65;
@@ -110,51 +113,51 @@ ul{
 	cursor: pointer;
 }
 
-#tlo a{
+.tlo a{
 	text-decoration: none;
 }
 
-#news{
+.news{
 	display: inline-block;
 	max-width: 260px;
 	padding-left: 60px;
 	padding-top: 86px;
 }
 
-#news a{
+.news a{
 	text-decoration: none;
 }
 
-#news:last-of-type{
+.news:last-of-type{
 	padding-right: 0px;
 }
 
-#news:first-of-type{
+.news:first-of-type{
 	padding-left: 0px;
 }
 
-#news_nag{
+.news_nag{
 	color: #465065;
 	font-size: 25px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
-#news_opis{
+.news_opis{
 	color: #9aa0ab;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-size: 15px;
 }
 
-#czytaj_dalej{
+.czytaj_dalej{
 	color: #fa5c65;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 }
 
-#strzalka{
+.strzalka{
 	background-image: url(../img/strzalka.png);
 	width: 12px;
 	height: 9px;
@@ -162,28 +165,28 @@ ul{
 	margin-left: 8px;
 }
 
-#portfolio{
+.portfolio{
 	margin-top: 100px;
 }
 
-#laptop{
+.laptop{
 	background-image: url(../img/laptop.jpg);
 	height: 297px;
 	width: 391px;
 	float: left;
 }
 
-#info{
+.info{
 	float: left;
 	padding-left: 82px;
 	padding-top: 13px;
 }
 
-#info a{
+.info a{
 	text-decoration: none;
 }
 
-#p_naglowek{
+.p_naglowek{
 	color: #314a5b;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 40px;
@@ -191,26 +194,26 @@ ul{
 	text-transform: uppercase;
 }
 
-#p_podopis{
+.p_podopis{
 	color: #314a5b;
 	font-size: 16px;
 	padding-top: 18px;
 	padding-bottom: 34px;
 }
 
-#p_opis{
+.p_opis{
 	color: #9aa0ab;
 	font-size: 15px;
 	max-width: 366px;
 	padding-bottom: 45px;
 }
 
-#team{
+.team{
 	padding-top: 100px;
 	padding-bottom: 57px;
 }
 
-#team_naglowek{
+.team_naglowek{
 	color: #314a5b;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 32px;
@@ -218,22 +221,22 @@ ul{
 	text-transform: uppercase;
 }
 
-#team_opis{
+.team_opis{
 	color: #9aa0ab;
 	font-size: 16px;
 }
 
-#czlowek{
+.czlowek{
 	padding-top: 40px;
 	padding-right: 46px;
 	display: inline-block;
 }
 
-#czlowek:last-of-type{
+.czlowek:last-of-type{
 	padding-right: 0;
 }
 
-#czytaj_dalej_team{
+.czytaj_dalej_team{
 	color: #fa5c65;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
@@ -241,18 +244,18 @@ ul{
 	float: right;
 }
 
-#zdjecie{
+.zdjecie{
 	height: 119px;
 	width: 119px;
 	display: inline-block;
 }
 
-#dane{
+.dane{
 	display: inline-block;
 	padding-left: 22px;
 }
 
-#imie{
+.imie{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	color: #314a5b;
@@ -261,40 +264,62 @@ ul{
 	padding-bottom: 12px;
 }
 
-#funkcja{
+.funkcja{
 	color: #f0454c;
 	font-size: 14px;
 	padding-bottom: 18px;
 }
 
-#zyciorys{
+.zyciorys{
 	color: #9aa0ab;
 	font-size: 14px;
 	max-width: 133px;
 }
 
-#stopka{
-	width: 100%;
-	border-top: 1px solid #e6eaed;
-	height: 90px;
-	line-height: 90px;
-	margin-top: 72px;
-}
 
-#stopka_lewo{
-	float: left;
-}
 
-.ikona{
-	background-repeat: no-repeat;
-	width: 18px;
-	height: 18px;
-	display: inline-block;
-	margin-right: 22px;
-}
-
-#stopka_prawo{
+.stopka_prawo{
 	float: right;
 	font-size: 13px;
 	color: #b9c0c6;
+}
+
+.more{
+	display: block;
+	color: #fa5c65;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+.more:after{
+	content: " →";
+}
+
+
+.stopka_lewo{
+ float: left;
+    padding: 30px 0 0 0;
+}
+.stopka_lewo a{
+    display: block;
+    line-height: 90px;
+    background-repeat: no-repeat;
+    height: 18px;
+    margin-right: 22px;
+    width: 18px;
+    float: left;
+    
+}
+.stopka_lewo .twitter{
+    background-image: url("../img/stopka_twitter.png");
+}
+.stopka_lewo .ig{
+    background-image: url("../img/stopka_ig.png");
+}
+.stopka_lewo .fb{
+    background-image: url("../img/stopka_fb.png");
+}
+.stopka_lewo .google{
+    background-image: url("../img/stopka_google.png");
 }
