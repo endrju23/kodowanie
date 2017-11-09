@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Domine:400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Open Sans; 
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+.center{
+	width: 940px;
+	margin: 0 auto;
+}
+
+#tlo{
+	background-image: url(../img/tlo.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	min-height: 820px;
+	float: left;
+}
+
+#logo{
+	font-size: 20px;
+	color: white;
+	background-color: #fa5c65;
+	display: -webkit-inline-box;
+	padding-top: 44px;
+	padding: 44px 14px 15px 14px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-family: 'Domine', serif;
+}
+
+#menu{
+	float: right;
+	display: inline;
+	margin-top: 30px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#menu ul{
+	
+}
+
+#menu ul li{
+	display: inline;
+	font-size: 14px;
+	padding-left: 30px;
+}
+
+#menu ul li #twitter{
+	background-image: url(../img/twitter.png);
+	height: 16px;
+	width: 20px;
+	display: inline-block;
+}
+
+#menu ul li #fb{
+	background-image: url(../img/fb.png);
+	height: 18px;
+	width: 10px;
+	display: inline-block;
+}
+
+#menu ul li:last-of-type{
+	padding-left: 20px;
+}
+
+#menu ul li a{
+	color: #263742;
+	text-decoration: none;
+}
+
+#naglowek{
+	font-size: 48px;
+	color: #314a5b;
+	text-transform: uppercase;
+	margin-top: 382px;
+	font-weight: bold;
+	line-height: 53px;
+}
+
+#opis{
+	color: #314a5b;
+	font-size: 20px;
+	margin-top: 28px;
+}
+
+#przycisk{
+	font-size: 15px;
+	color: white;
+	background-color: #fa5c65;
+	padding: 26px 42px;
+	text-transform: uppercase;
+	display: -webkit-inline-box;
+	border-radius: 10px;
+	margin-top: 45px;
+	cursor: pointer;
+}
+
+#tlo a{
+	text-decoration: none;
+}
+
+#news{
+	display: inline-block;
+	max-width: 260px;
+	padding-left: 60px;
+	padding-top: 86px;
+}
+
+#news a{
+	text-decoration: none;
+}
+
+#news:last-of-type{
+	padding-right: 0px;
+}
+
+#news:first-of-type{
+	padding-left: 0px;
+}
+
+#news_nag{
+	color: #465065;
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#news_opis{
+	color: #9aa0ab;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 15px;
+}
+
+#czytaj_dalej{
+	color: #fa5c65;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+#strzalka{
+	background-image: url(../img/strzalka.png);
+	width: 12px;
+	height: 9px;
+	display: inline-block;
+	margin-left: 8px;
+}
+
+#portfolio{
+	margin-top: 100px;
+}
+
+#laptop{
+	background-image: url(../img/laptop.jpg);
+	height: 297px;
+	width: 391px;
+	float: left;
+}
+
+#info{
+	float: left;
+	padding-left: 82px;
+	padding-top: 13px;
+}
+
+#info a{
+	text-decoration: none;
+}
+
+#p_naglowek{
+	color: #314a5b;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#p_podopis{
+	color: #314a5b;
+	font-size: 16px;
+	padding-top: 18px;
+	padding-bottom: 34px;
+}
+
+#p_opis{
+	color: #9aa0ab;
+	font-size: 15px;
+	max-width: 366px;
+	padding-bottom: 45px;
+}
+
+#team{
+	padding-top: 100px;
+	padding-bottom: 57px;
+}
+
+#team_naglowek{
+	color: #314a5b;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#team_opis{
+	color: #9aa0ab;
+	font-size: 16px;
+}
+
+#czlowek{
+	padding-top: 40px;
+	padding-right: 46px;
+	display: inline-block;
+}
+
+#czlowek:last-of-type{
+	padding-right: 0;
+}
+
+#czytaj_dalej_team{
+	color: #fa5c65;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	float: right;
+}
+
+#zdjecie{
+	height: 119px;
+	width: 119px;
+	display: inline-block;
+}
+
+#dane{
+	display: inline-block;
+	padding-left: 22px;
+}
+
+#imie{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #314a5b;
+	font-size: 22px;
+	text-transform: uppercase;
+	padding-bottom: 12px;
+}
+
+#funkcja{
+	color: #f0454c;
+	font-size: 14px;
+	padding-bottom: 18px;
+}
+
+#zyciorys{
+	color: #9aa0ab;
+	font-size: 14px;
+	max-width: 133px;
+}
+
+#stopka{
+	width: 100%;
+	border-top: 1px solid #e6eaed;
+	height: 90px;
+	line-height: 90px;
+	margin-top: 72px;
+}
+
+#stopka_lewo{
+	float: left;
+}
+
+.ikona{
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	margin-right: 22px;
+}
+
+#stopka_prawo{
+	float: right;
+	font-size: 13px;
+	color: #b9c0c6;
+}
